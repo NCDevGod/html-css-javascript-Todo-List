@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.inpList {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btnAdd {
+    border: none;
+    padding: 0 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btnAdd:hover {
+    background: darkgreen;
+}
+
+.btnRemove {
+    cursor: pointer;
+}
